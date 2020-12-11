@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Profiler } from "react";
 import axios from "axios";
 import Pdf from "../../editable-stuff/Ana Ashrafi - Resume 2020.pdf";
-import Profile from "../../editable-stuff/Profile.jpg"
+import Profile from "../../editable-stuff/Profile.png"
 import {Helmet} from "react-helmet";
 
 import {
@@ -57,8 +57,8 @@ const AboutMe = () => {
                 className="border border-secondary rounded-circle"
                 src={Profile}
                 alt="profilepicture"
-                width="375"
-                height="375"
+                width="270"
+                height="270"
               />
             </div>
             <div className="col d-lg-inline align-self-center">
